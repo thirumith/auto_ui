@@ -11,13 +11,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="icon" type="image/png" href="favicon.png"/>
 </head>
-<body>
+<body onload="loadMe()">
 	<ul class="collapsible">
 	  <li>
 		<div class="collapsible-header">
 		  <i class="material-icons">filter_drama</i>
 		  URL Locator
-		  <span class="new badge">20</span></div>
+		  <span id="urlCount" class="new badge">20</span></div>
 		<div class="collapsible-body">
 			<p>
 				<div class="row">
@@ -36,11 +36,4 @@
 	  </li>
 	</ul>
 </body>
-	<script >
-		$.getJSON("/json/url.json", function (data) {
-			$.each(data, function (index, value) {
-			   console.log(value);
-			});
-		});
-	</script>
 </html>

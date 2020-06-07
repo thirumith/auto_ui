@@ -1,5 +1,10 @@
 {
-  "name": "Mega Corp.",
-  "order_count": 83,
-  "address": "Infinity Loop Drive",
+   "url": [
+       {
+           "k1": "https://www.google.com",
+           "k2": "https://www.g1.com",
+           "k3": "https://www.google3.com",
+           "k4": "https://www.gooegle.com"
+       }
+   ]
 }
